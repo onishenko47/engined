@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Механика(результаты расчета)</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper">
+    <!-- header -->
+    <header class="header">
+    	<div class="container clearfix">
+    		<div class="header-wrapp">
+    			<div class="logo">
+    				<a href="#">
+    					<span class="middle logo__icon">
+    						<img src="img/logo.png" alt="">
+    					</span>
+    					<span class="middle logo__text hidden-sm">
+    						<span class="logo__name">ENGINED</span>
+    						<span class="logo__descr">
+    							Образовательный<br>
+    							инженерный портал
+    						</span>
+    					</span>
+    				</a>
+    			</div>
+    			<div class="header__social">
+    				<a href="#" class="social-item facebook-icon"></a>
+    				<a href="#" class="social-item linke-icon"></a>
+    			</div>
+    			<div class="search">
+    				<form action="">
+    					<input type="search" placeholder="Поиск..." class="search__input">
+    					<input type="submit" value="" class="search__submit">
+    				</form>
+    			</div>
+    			<div class="language">
+    				<div class="language__item">
+    					<a href="#" class="language__link active">
+    						<span class="middle lang-icon rus"></span>
+    						<span class="middle">Русский</span>
+    					</a>
+    				</div>
+    				<div class="language__item">
+    					<a href="#" class="language__link">
+    						<span class="middle lang-icon eng"></span>
+    						<span class="middle">English</span>
+    					</a>
+    				</div>
+    			</div>
+    			<div class="enter">
+    				<div class="enter__item">
+    					<a href="#" class="enter__link">
+    						<span class="middle enter-icon avatar"></span>
+    						<span class="middle">
+    							Регистрация
+    						</span>
+    					</a>
+    				</div>
+    				<div class="enter__item">
+    					<a href="#" class="enter__link">
+    						<span class="middle enter-icon door"></span>
+    						<span class="middle">
+    							Вход
+    						</span>
+    					</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    <!-- header end -->
+    <nav class="nav">
+    	<div class="container">
+    		<button class="navbar-toggle visible-xs" type="button">  
+    			<span class="icon-bar"></span> 
+    			<span class="icon-bar"></span> 
+    			<span class="icon-bar"></span> 
+    		</button>
+    		<ul class="nav__menu hidden-xs" id="menu">
+    			<li><a href="#">О проекте</a></li>
+    			<li><a href="#">Механика</a></li>
+    			<li><a href="#">Термодинамика</a></li>
+    			<li><a href="#">Загрузки</a></li>
+    			<li><a href="#">Новости проекта</a></li>
+    			<li><a href="#">Форум</a></li>
+    			<li><a href="#">Контакты</a></li>
+    		</ul>
+    	</div>
+    </nav>
+    <div class="content">
+      <div class="container">
+        <div class="grid clearfix">
+          <div class="col-md-3">
+            <div class="row">
+              <div class="grid-item main-grid">
+                <div class="item-block">
+                  <ul class="category">
+                    <li>
+                      <a href="#" class="category-toggle">Название категории</a>
+                      <ul class="category__child">
+                        <li><a href="#">Подкатегория 1</a></li>
+                        <li><a href="#">Подкатегория 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="category-toggle">Название категории</a>
+                      <ul class="category__child">
+                        <li><a href="#">Подкатегория 1</a></li>
+                        <li><a href="#">Подкатегория 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="category-toggle">Название категории</a>
+                      <ul class="category__child">
+                        <li><a href="#">Подкатегория 1</a></li>
+                        <li><a href="#">Подкатегория 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="category-toggle">Название категории</a>
+                      <ul class="category__child">
+                        <li><a href="#">Подкатегория 1</a></li>
+                        <li><a href="#">Подкатегория 2</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="grid-item main-grid hidden-sm">
+                <div class="item-block">
+                  <div class="sidebar-banner">
+                    <a href="#">
+                      <img src="img/sidebar-banner.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="grid-item download-wrapp">
+                <div class="item-block">
+                  <div class="header-block clearfix">
+                    <div class="pull-left no-float-xs">
+                      <h2 class="text-upparcase text-color">
+                        <b>Механика</b>
+                      </h2>
+                    </div>
+                    <div class="pull-right no-float-xs">
+                      <ul class="breadcrumb clearfix">
+                        <li>
+                          <a href="#">Главная</a>
+                          <span class="separator">-</span>
+                        </li>
+                        <li>
+                          <a href="#">Механика</a>
+                          <span class="separator">-</span>
+                        </li>
+                        <li>
+                          <a href="#">Название категории</a>
+                          <span class="separator">-</span>
+                        </li>
+                        <li>
+                          <a href="#" class="breadcrumb__enter">
+                            <span class="middle">Вертикальный ИПР...</span>
+                            <span class="middle right-arrow"></span> 
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="block-content block-content_border">
+                    <h3 class="font-medium">
+                      Вертикальный ИПР нефтяной скважины
+                      <i>(Результаты расчета)</i>
+                    </h3>
+                    <div class="search-total">Калькулятором воспользовались: 1243 человека</div>
+                  </div>
+                  <div class="block-content">
+                    <div class="mechanics-buttons clearfix">
+                      <div class="col-sm-4">
+                        <div class="row">
+                          <div class="button-block">
+                            <div class="button-block__content">
+                              <a href="#" class="btn-item button-toggle">Сохранить результат</a>
+                              <div class="dropdown-item">
+                                <form action="">
+                                  <div class="form-group">
+                                    <div class="label-input">Придумайте название</div>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="submit" class="submit-input" value="Сохранить">
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="row">
+                          <div class="button-block">
+                            <a href="#" class="btn-item">Экспортировать в PDF</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="row">
+                          <div class="button-block">
+                            <a href="#" class="btn-item">Экспортировать в .XLS</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="private-content">
+                      <table class="private-table mechanics-table">
+                        <thead>
+                          <tr>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">P</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">z</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">Bg</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">Pg</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">Yg</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="#" class="sort-btn">
+                                <span class="middle">W</span>
+                                <span class="sort-arrow middle"></span>
+                              </a>
+                            </td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="mechanic-val">
+                            <td>
+                              <i>bar</i>
+                            </td>
+                            <td>
+                              
+                            </td>
+                            <td>
+                              <i>m<sup>3</sup>/m<sup>3</sup></i>
+                            </td>
+                            <td>
+                              <i>kg<sup>3</sup>/m<sup>3</sup></i>
+                            </td>
+                            <td>
+                              <i>cp</i>
+                            </td>
+                            <td>
+                              <i>bar<sup>3</sup>/cp</i>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              184.48
+                            </td>
+                            <td>
+                              0.7886
+                            </td>
+                            <td>
+                              0.00556
+                            </td>
+                            <td>
+                              185.434
+                            </td>
+                            <td>
+                              0.02324
+                            </td>
+                            <td>
+                              23254.2
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="charts">
+                      <h4 class="font-medium">Коэффициент сжимаемости и вязкости</h4>
+                      <div class="charts__label">
+                        <div class="charts__label__item blue-label middle">
+                          z
+                        </div>
+                        <div class="charts__label__item green-label middle">
+                          visc
+                        </div>
+                      </div>
+                      <div id="chart_div"></div>
+                    </div>        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+  	<div class="container">
+  		<div class="footer-wrapp">
+  			<div class="footer__logo">
+  				<a href="#">
+  					<span class="middle footer__logo-icon">
+  						<img src="img/footer-logo.png" alt="">
+  					</span>
+  					<span class="middle footer__logo-text hidden-sm">
+  						<span class="footer__logo-name">ENGINED</span>
+  						<span class="footer__logo-descr">
+  							Образовательный<br>
+  							инженерный портал
+  						</span>
+  					</span>
+  				</a>
+  			</div>
+  			<div class="footer__contacts">
+  				<div class="footer__contacts__item">
+  					<span class="table-cell-top footer__contacts__icon">
+  						<span class="gps-icon"></span>
+  					</span>
+  					<span class="table-cell-top">
+  						23 Crescent Road, Mount Pleasant, 3452
+  					</span>
+  				</div>
+  				<div class="footer__contacts__item">
+  					<div class="middle">
+  						<span class="table-cell-top footer__contacts__icon">
+  							<span class="mail-icon"></span>
+  						</span>
+  						<span class="table-cell-top">
+  							info@company.com
+  						</span>
+  					</div>
+  					<div class="middle footer__contacts__tel">
+  						<span class="table-cell-top footer__contacts__icon">
+  							<span class="tel-icon"></span>
+  						</span>
+  						<span class="table-cell-top">
+  							(012) 632 4357
+  						</span>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="footer__social">
+  				<a href="#" class="social-item facebook-icon"></a>
+  				<a href="#" class="social-item linke-icon"></a>
+  			</div>
+  			<div class="create">
+  				<span class="middle">Разработка сайта — </span>
+  				<span class="middle create__comp">
+  					<span class="middle create__name">FIDES</span>
+  					<img src="img/fides.png" alt="" class="middle">
+  				</span>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
+  <script src="js/vendor.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+      google.charts.load('current', {'packages':['line', 'corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var button = document.getElementById('change-chart');
+      var chartDiv = document.getElementById('chart_div');
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'P bar');
+      data.addColumn('number', "z");
+      data.addColumn('number', "visc");
+
+      data.addRows([
+        [0,  1.000,  .0008],
+        [15,   0.950,  .0010],
+        [30,   .900,   .0012],
+        [90,  .800, .0014],
+        [120,  .750, .0017],
+        [150,  .730, .0019],
+        [180,  .700, .0021],
+        [210, .690, .0023],
+        [240,  .680, .0025],
+        [270,  .670,  .0027],
+        [300, .660, .0030]
+      ]);
+
+        var classicOptions = {
+        height: 400,
+        legend: 'none',
+        pointSize: 9,
+        series: {
+          0: {
+            targetAxisIndex: 0,
+            color: '#358ed7'
+          },
+          1: {
+            targetAxisIndex: 1,
+            color: '#84cb5e'
+          }
+        },
+        vAxes: {
+          0: {
+            title: 'N',
+            titleTextStyle: { 
+            color: '#358ed7',
+            fontSize: 16
+            },
+            textStyle: {
+              color: '#86939e', 
+              fontSize: 12
+            }, 
+          },
+          1: {
+            title: 'вязкость газа,cp',
+            titleTextStyle: { 
+              color: '#358ed7',
+              fontSize: 16 
+            },
+            textStyle: {
+              color: '#86939e', 
+              fontSize: 12
+            }, 
+          }
+        },
+        hAxis: {
+          title: 'P bar',
+          titleTextStyle: { 
+            color: '#358ed7',
+            fontSize: 16 
+          },
+          textStyle: {
+            color: '#86939e', 
+            fontSize: 12
+          }, 
+        },
+      };
+
+       function drawClassicChart() {
+        var classicChart = new google.visualization.LineChart(chartDiv);
+        classicChart.draw(data, classicOptions);
+        button.innerText = 'Change to Material';
+        button.onclick = drawMaterialChart;
+      }
+
+      drawClassicChart();
+
+    }
+
+  </script>
+</body>
+</html>

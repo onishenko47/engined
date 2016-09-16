@@ -3,6 +3,10 @@
     padding-left: 225px; }
   .search {
     width: 35%; }
+  .mechanics-buttons {
+    margin-left: -15px; }
+  .button-block {
+    padding-left: 15px; }
   .tag .pull-left,
   .tag .pull-right {
     float: none !important; }
@@ -141,12 +145,33 @@
 @media (max-width: 767px) {
   .left-block {
     margin-bottom: 15px; }
+  .button-block {
+    margin-bottom: 15px; }
+  .calc-radio__item {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px; }
   .info-icon {
     display: none; }
+  .calc-form__item {
+    text-align: center;
+    margin-bottom: 20px; }
+  .calc-form__val,
+  .calc-form__input,
+  .calc-form__label {
+    display: block;
+    width: auto;
+    margin-bottom: 10px; }
   .private-content {
     overflow-x: auto; }
+  .calc-form__send {
+    width: auto;
+    margin-bottom: 15px;
+    display: block; }
   .content_password {
     padding: 30px 0; }
+  .calc-form__label {
+    padding-left: 0; }
   .private-table {
     table-layout: fixed;
     width: 767px; }

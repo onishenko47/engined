@@ -2,7 +2,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -109,7 +109,7 @@ a {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px; } }
+    width: 1190px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -1790,7 +1790,7 @@ img {
 .text-color {
   color: #43474d; }
 
-.download-text {
+.content-text {
   margin: 25px 0;
   font-size: 16px;
   color: #777777;
@@ -2183,3 +2183,146 @@ select::-ms-expand {
 
 .interview-block {
   min-height: 423px; }
+
+.calc-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #43474d; }
+
+.calc-radio__item {
+  margin-left: 35px; }
+
+.calc-radio {
+  margin-bottom: 20px; }
+
+.calc-form h4 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.calc-form__item {
+  margin-bottom: 15px; }
+
+.calc-form .submit-input {
+  font-size: 16px; }
+
+.calc-form__val {
+  width: 60px;
+  font-size: 16px;
+  color: #5e6977; }
+
+.calc-form__input {
+  width: 170px; }
+  .calc-form__input .form-control {
+    text-align: center;
+    font-size: 16px;
+    color: #86939e; }
+
+.calc-form__label {
+  padding-left: 15px;
+  font-size: 14px;
+  color: #86939e; }
+
+.calc-form__send {
+  width: 230px; }
+
+.title-color a {
+  color: #358ed7; }
+  .title-color a:hover {
+    text-decoration: underline; }
+
+.clear-val {
+  text-decoration: underline;
+  cursor: pointer; }
+
+.equation__item {
+  margin-bottom: 15px; }
+
+.equation__text {
+  font-size: 14px;
+  color: #86939e;
+  padding-top: 10px; }
+
+.equation-info {
+  background: #fafafa;
+  font-size: 14px;
+  color: #86939e; }
+  .equation-info b {
+    font-weight: 500;
+    color: #43474d; }
+
+h3 i {
+  font-weight: 400;
+  font-size: 20px; }
+
+.btn-item {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #5f6d75;
+  font-weight: 500;
+  background: #e1e8ee;
+  text-align: center; }
+  .btn-item:hover, .btn-item.active {
+    background: #358ed7;
+    color: #fff; }
+
+.mechanics-buttons {
+  margin-left: -40px;
+  margin-bottom: 30px; }
+
+.button-block {
+  padding-left: 40px; }
+
+.mechanics-table td {
+  width: 16.6% !important; }
+
+.mechanic-val td {
+  color: #358ed7;
+  font-size: 18px; }
+
+.charts {
+  margin-top: 25px; }
+
+.dropdown-item {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  padding: 15px;
+  background: #f8f8f8;
+  margin-top: 10px;
+  display: none; }
+
+.button-block__content {
+  position: relative; }
+
+.charts__label {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2; }
+
+.charts__label__item {
+  font-size: 14px;
+  color: #86939e;
+  margin-right: 30px;
+  position: relative; }
+  .charts__label__item.blue-label:before {
+    background: #358ed7; }
+  .charts__label__item.green-label:before {
+    background: #7dc855; }
+  .charts__label__item:before {
+    content: "";
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin-right: 5px; }
+
+#chart_div {
+  margin-top: -20px; }
