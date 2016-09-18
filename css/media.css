@@ -3,6 +3,15 @@
     padding-left: 225px; }
   .search {
     width: 35%; }
+  .project-header .pull-left,
+  .project-header .pull-right {
+    float: none !important; }
+  .register-item .inner-form__item,
+  .register-item .password-form__item {
+    padding-left: 20px; }
+  .register-item .inner-form,
+  .register-item .password-form {
+    margin-left: -20px; }
   .mechanics-buttons {
     margin-left: -15px; }
   .button-block {
@@ -32,10 +41,27 @@
 @media (max-width: 991px) {
   .hidden-sm {
     display: none; }
+  .register-item .password-form__item {
+    margin-bottom: 0; }
+  .inner-form {
+    margin-bottom: 0; }
+    .inner-form__item {
+      margin-bottom: 20px; }
+  .no-float-sm {
+    float: none !important; }
+  .about-img {
+    height: 400px; }
   .nav__menu > li > a {
     font-size: 14px; }
+  .published {
+    text-align: left; }
   .profile-grid {
     margin-bottom: 30px; }
+  .project-header .news-label {
+    margin: 0;
+    display: block; }
+  .label-item {
+    margin: 10px 5px; }
   .form-info {
     padding-top: 0; }
   .password-form__item {
@@ -220,6 +246,27 @@
 @media (max-width: 767px) {
   .left-block {
     margin-bottom: 15px; }
+  .nav__menu .drop-menu_second a {
+    padding-left: 30px !important;
+    padding-right: 30px !important; }
+  .nav__menu .drop-menu a {
+    display: block;
+    color: #43474d;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .nav__menu .drop-menu a:hover, .nav__menu .drop-menu a.active {
+      color: #358ed7; }
+  .drop-menu {
+    display: none; }
+  .register-import {
+    margin-left: 0;
+    display: block; }
+  .register-item .password-form__item {
+    padding-left: 30px; }
+  .register-item .password-form {
+    margin-left: -30px; }
+  .about-img {
+    height: 300px; }
   .nav__menu > li > a {
     font-size: 18px;
     padding: 10px; }
@@ -314,7 +361,7 @@
   .grid .grid-item {
     padding-left: 15px; }
   .mrg-xs {
-    margin-bottom: 30px; }
+    margin-bottom: 30px !important; }
   .news-title {
     font-size: 20px; }
   .news-date {
@@ -352,5 +399,24 @@
 @media (max-width: 550px) {
   .col-lxs-12 {
     width: 100%; }
+  .post-text blockquote {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 20px; }
+    .post-text blockquote:before {
+      left: 10px;
+      top: -10px; }
+  .post-text p {
+    margin-top: 15px; }
+  .post-text p {
+    font-size: 15px; }
   .pagination__list > li {
-    margin: 0 7px; } }
+    margin: 0 7px; }
+  .col-es-12 {
+    width: 100%; }
+  .comments-send {
+    width: 110px; }
+  .comment-form .search__input {
+    padding-right: 110px; }
+  .about-img {
+    height: 250px; } }

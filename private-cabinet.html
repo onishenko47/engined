@@ -234,7 +234,7 @@
                       <div class="col-lg-5">
                         <div class="row profile-show__left">
                           <span class="profile-show__text middle">Показать на странице</span>
-                          <div class="select-item middle">
+                          <div class="select-block middle">
                             <select class="select-control">
                               <option value="">30</option>
                               <option value="">50</option>
@@ -296,9 +296,28 @@
                             <td>Название калькулятора</td>
                             <td>03.09.2016</td>
                             <td>
-                              <a href="#" class="control-btn view-icon middle"></a>
-                              <a href="#" class="control-btn delete-icon middle"></a>
-                              <a href="#" class="control-btn down-icon middle"></a>
+                              <div class="private-button">
+                                <div class="middle">
+                                  <a href="#" class="control-btn view-icon middle"></a>
+                                </div>
+                                <div class="middle">
+                                  <a href="#" class="control-btn delete-icon button-toggle middle"></a>
+                                  <div class="dropdown-item dropdown-item_delete">
+                                    <h4 class="font-medium title-color">Вы уверены, что хотите <br>удалить расчет?</h4>
+                                    <div class="clearfix">
+                                      <a href="#" class="btn-item btn-item_var pull-left">Да</a>
+                                      <a href="#" class="btn-item btn-item_var pull-right">Нет</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="middle">
+                                  <a href="#" class="control-btn down-icon button-toggle middle"></a>
+                                  <div class="dropdown-item dropdown-item_save">
+                                    <a href="#" class="btn-item">Экспортировать в .XLS</a>
+                                    <a href="#" class="btn-item">Экспортировать в PDF</a>
+                                  </div>
+                                </div>
+                              </div>
                             </td>
                           </tr>
                           <tr>
