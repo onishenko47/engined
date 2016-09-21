@@ -3,6 +3,8 @@
     padding-left: 225px; }
   .search {
     width: 35%; }
+  .not-found__title {
+    font-size: 200px; }
   .project-header .pull-left,
   .project-header .pull-right {
     float: none !important; }
@@ -41,6 +43,8 @@
 @media (max-width: 991px) {
   .hidden-sm {
     display: none; }
+  .not-found__title {
+    font-size: 120px; }
   .register-item .password-form__item {
     margin-bottom: 0; }
   .inner-form {
@@ -246,6 +250,8 @@
 @media (max-width: 767px) {
   .left-block {
     margin-bottom: 15px; }
+  .not-found__text {
+    font-size: 16px; }
   .nav__menu .drop-menu_second a {
     padding-left: 30px !important;
     padding-right: 30px !important; }
