@@ -1648,6 +1648,8 @@ img {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   height: 40px; }
+  .form-control.middle {
+    display: inline-block !important; }
 
 .submit-input {
   display: block;
@@ -2709,3 +2711,9 @@ h3 i {
 .drop li:hover {
   background-color: #358ed7;
   color: white; }
+
+.value-item {
+  margin-top: 30px;
+  color: #86939e; }
+  .value-item .form-control {
+    width: 150px; }
