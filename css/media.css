@@ -3,8 +3,19 @@
     padding-left: 225px; }
   .search {
     width: 35%; }
+  .nav__menu > li > a {
+    font-size: 16px; }
   .not-found__title {
     font-size: 200px; }
+  .drop-menu {
+    width: 100%; }
+    .drop-menu__item:before {
+      left: 20%; }
+  .drop-menu {
+    width: 160px; }
+  .nav__menu > li {
+    padding-left: 0;
+    padding-right: 0; }
   .project-header .pull-left,
   .project-header .pull-right {
     float: none !important; }
@@ -56,7 +67,7 @@
   .about-img {
     height: 400px; }
   .nav__menu > li > a {
-    font-size: 14px; }
+    font-size: 12px; }
   .published {
     text-align: left; }
   .profile-grid {
@@ -123,19 +134,15 @@
 @media (min-width: 768px) {
   .left-block {
     float: left; }
-  .nav__menu > li {
-    padding-left: 15px;
-    padding-right: 15px; }
-    .nav__menu > li:hover > div {
+  .nav__menu > li:hover > div {
+    display: block; }
+    .nav__menu > li:hover > div > ul > li:hover > div {
       display: block; }
-      .nav__menu > li:hover > div > ul > li:hover > div {
-        display: block; }
   .drop-menu {
     position: absolute;
     z-index: 5;
     left: 0;
     padding-top: 12px;
-    width: 100%;
     display: none; }
     .drop-menu__item {
       background: #fff;
@@ -154,7 +161,6 @@
         width: 20px;
         height: 20px;
         top: -10px;
-        left: 50%;
         margin-left: -10px; }
       .drop-menu__item li {
         position: relative;
@@ -250,6 +256,8 @@
 @media (max-width: 767px) {
   .left-block {
     margin-bottom: 15px; }
+  .drop-menu {
+    width: 100%; }
   .not-found__text {
     font-size: 16px; }
   .nav__menu .drop-menu_second a {
