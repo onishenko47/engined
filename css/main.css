@@ -1162,8 +1162,9 @@ h1 {
       font-weight: 500; }
 
 .enter {
-  line-height: 1;
-  text-align: right; }
+  line-height: 1; }
+  .enter.active {
+    text-align: right; }
   .enter__link {
     font-weight: 500;
     color: #5e6977; }
@@ -1248,6 +1249,11 @@ h1 {
       font-weight: 500;
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent; }
+      .nav__menu > li > a.no-active {
+        cursor: default;
+        opacity: 0.5; }
+        .nav__menu > li > a.no-active:hover, .nav__menu > li > a.no-active.active {
+          border-color: transparent; }
       .nav__menu > li > a:hover, .nav__menu > li > a.active {
         border-color: #358ed7; }
 
